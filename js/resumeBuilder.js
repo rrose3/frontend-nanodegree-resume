@@ -189,4 +189,3 @@ bio.display();
 education.display();
 work.display();
 projects.display();
-//this is just a test
