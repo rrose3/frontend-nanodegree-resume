@@ -13,7 +13,7 @@ var bio = {
     },
     "welcomeMessage": "Welcome to my online resume.",
     "skills": [
-        "HTML", "CSS", "Javascript", "jQuery"
+        "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"
     ],
     "biopic": "images/fry.jpg", //ToDO: replace image
     display: function () {
@@ -53,7 +53,9 @@ var education = {
             "name": "TCI College of Technology",
             "location": "New York, New York",
             "degree": "Associate",
-            "majors": "Networking",
+            "majors": [
+                "Networking"
+            ],
             "dates": "2008-2010"
         }
     ],
@@ -178,16 +180,16 @@ var projects = {
 };
 
 /* Internationalize Button */
-function inName (name) {
-    name = name.trim().split(" ");
-    console.log(name);
-    name[1] = name[1].toUpperCase();
-    name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
+// // function inName (name) {
+// //     name = name.trim().split(" ");
+// //     console.log(name);
+// //     name[1] = name[1].toUpperCase();
+// //     name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
+// //
+// //     return name[0] + " "+name[1];
+// }
 
-    return name[0] + " "+name[1];
-}
-
-$("#main").append(internationalizeButton);
+// $("#main").append(internationalizeButton);
 
 /* Google Map */
 $("#mapDiv").append(googleMap);
