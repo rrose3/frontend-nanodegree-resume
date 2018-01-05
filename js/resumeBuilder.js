@@ -2,13 +2,13 @@
 This is empty on purpose! Your code to build the resume will go here.
  */
 var bio = {
-    "name": "Rohan Rose",
+    "name": "John Doe",
     "role": "Front-End Web Developer",
     "contacts": {
-        "mobile": "917-714-4268",
-        "email": "rrose3@live.com",
-        "github": "rrose3",
-        "twitter": "@rrose319",
+        "mobile": "777-777-7777",
+        "email": "johndoe@gmail.com",
+        "github": "johndoe",
+        "twitter": "johndoe",
         "location": "New York"
     },
     "welcomeMessage": "Welcome to my online resume.",
